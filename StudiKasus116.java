@@ -3,7 +3,7 @@ public class StudiKasus116 {
     public static void main(String[] args) {
         Scanner j = new Scanner(System.in);
 
-        int hargapercup=18000;
+        int hargapercup=19000;
         int jumlahcup, uangbayar, totalharga, diskon;
         int totalbayar, kembalian, kurang;
 
@@ -15,8 +15,8 @@ public class StudiKasus116 {
         totalharga=jumlahcup*hargapercup;
         diskon=0;
 
-        if (totalharga >= 100000) {
-            diskon=totalharga*10/100;
+        if (totalharga >= 90000) {
+            diskon=totalharga*5/100;
         }  
             totalbayar=totalharga-diskon;
         
